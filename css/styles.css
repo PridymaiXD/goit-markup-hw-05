@@ -615,7 +615,7 @@ margin-bottom: 16px;
 }
 
 .close-btn-icon {
-
+transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-forms {
@@ -623,7 +623,7 @@ margin-bottom: 16px;
 }
 
 .modal-container-block {
-margin-bottom: 16px;
+margin-bottom: 8px;
 
 }
 
@@ -661,7 +661,7 @@ width: 100%;
 
 .modal-form-inputs:hover, .modal-form-inputs:focus + .modal-form-icon {
     fill: #4d5ae5;
-border-color: #4D5AE5
+border-color: #4D5AE5;
 }
 
 .modal-form-icon {
@@ -701,9 +701,9 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1)
   color: #4d5ae5;
 }
 
-.label-checkbox:checked + .label-checkbox .custom-checkbox {
+.checkbox:checked + .label-checkbox .custom-checkbox {
 background-color: #404bbf;
-border: transparent;
+border: none;
 fill: #F4F4FD;
 }
 
