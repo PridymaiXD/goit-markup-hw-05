@@ -628,6 +628,10 @@ margin-bottom: 8px;
 
 }
 
+.modal-container-textarea {
+  margin-bottom: 16px;
+}
+
 .modal-form-label {
   font-weight: 400;
   font-size: 12px;
